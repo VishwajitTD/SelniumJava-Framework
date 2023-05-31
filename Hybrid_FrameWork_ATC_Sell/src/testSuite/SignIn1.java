@@ -24,7 +24,8 @@ public static void signIn(String email, String password) {
 	}
 }
 
-	@DataProvider(name="testdata")
+	
+@DataProvider(name="testdata")
 	public Object[][] createData1(){
 		return new Object[][] {
 			{

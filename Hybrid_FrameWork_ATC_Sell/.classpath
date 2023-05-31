@@ -7,6 +7,7 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="sw/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="sw/mysql-connector-j-8.0.31.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/vishw/Downloads/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-javadoc-5.2.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vishw/Downloads/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-ooxml-lite-5.2.3.jar"/>
