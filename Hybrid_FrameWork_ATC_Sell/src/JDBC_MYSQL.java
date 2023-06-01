@@ -29,7 +29,7 @@ public class JDBC_MYSQL {
 	String name=res.getString(1);
 
 	String password=res.getString(2);
-	System.out.println(name+" "+password);
+	System.out.println(name+"        "+password);
 	
 	 }
 }
