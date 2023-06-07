@@ -30,6 +30,7 @@ public class ScrollDownToSpecificElement {
 		Thread.sleep(2000);
 		JavascriptExecutor js=(JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy("+x+","+y+")");
+		Thread.sleep(2000);
 		ele1.click();
 		/*Actions act=new Actions(driver);
 		act.contextClick(ele).perform();

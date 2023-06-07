@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testSuite.SignIn1">
+      <class name="listeners_Demo.Listener_BeforMethod">
         <methods>
+          <include name="openApp"/>
           <include name="closeApp"/>
           <include name="signIn"/>
-          <include name="openApp"/>
         </methods>
-      </class> <!-- testSuite.SignIn1 -->
+      </class> <!-- listeners_Demo.Listener_BeforMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

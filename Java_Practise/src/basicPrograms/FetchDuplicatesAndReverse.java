@@ -1,7 +1,7 @@
 package basicPrograms;
 
-//import java.util.ArrayList;
-//import java.util.Collections;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class FetchDuplicatesAndReverse {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class FetchDuplicatesAndReverse {
         {
             char[] arr = abb[k].toCharArray();
             int count=0;
-          //  ArrayList<Character> duplicates = new ArrayList<Character>();
+          ArrayList<Character> duplicates = new ArrayList<Character>();
 
             for (int i = 0; i < arr.length; i++) {
             	
@@ -20,17 +20,17 @@ public class FetchDuplicatesAndReverse {
                 	
                     if (arr[i] == arr[j]  ) {
                     	
-                    	System.out.println("duplicates characters presents are: "+arr[j]);
-                    	count++;
-                        //duplicates.add(arr[j]);
+                    	//System.out.println("duplicates characters presents are: "+arr[j]);
+                    	//count++;
+                        duplicates.add(arr[j]);
                     }
                 }
             }
-            System.out.println("    "+"the number of duplicates presents are: "+count);
+           // System.out.println("    "+"the number of duplicates presents are: "+count);
             
         }
-      //  System.out.println("Duplicate characters are: " + duplicates);
-       // Collections.reverse(duplicates);
-      //  System.out.println("Duplicate characters in reverse order are: " + duplicates);
+       //System.out.println("Duplicate characters are: " + duplicates);
+      //Collections.reverse(duplicates);
+      //System.out.println("Duplicate characters in reverse order are: " + duplicates);
     }
 }
